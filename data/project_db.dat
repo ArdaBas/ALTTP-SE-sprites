@@ -1,6 +1,10 @@
+map{ id = "Enemy test", description = "Test" }
 
+tileset{ id = "light_world", description = "Light world" }
 
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
+sprite{ id = "enemy/bosses/agahim", description = "Agahim" }
+sprite{ id = "enemy/knight_green1", description = "Green Knight1" }
 sprite{ id = "enemys/agahim", description = "Agahim" }
 sprite{ id = "entities/arrow", description = "Arrow" }
 sprite{ id = "entities/block", description = "Block" }

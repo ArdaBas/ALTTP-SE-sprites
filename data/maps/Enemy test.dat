@@ -1,0 +1,53 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "grass.soil",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 32,
+  height = 224,
+  pattern = "grass.tree_small.green.2",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 0,
+  width = 32,
+  height = 224,
+  pattern = "grass.tree_small.green.2",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 160,
+  y = 197,
+  direction = 1,
+}
+
+enemy{
+  layer = 0,
+  x = 160,
+  y = 69,
+  direction = 0,
+  breed = "Green Guard",
+}
+
