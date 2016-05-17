@@ -48,6 +48,6 @@ enemy{
   x = 160,
   y = 69,
   direction = 0,
-  breed = "Green Guard",
+  breed = "tentacle",
 }
 

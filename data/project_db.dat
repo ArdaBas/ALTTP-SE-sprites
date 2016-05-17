@@ -2,9 +2,10 @@ map{ id = "Enemy test", description = "Test" }
 
 tileset{ id = "light_world", description = "Light world" }
 
+sprite{ id = "enemies/bosses/agahnim", description = "Agahnim" }
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
+sprite{ id = "enemies/tentacle", description = "Tentacale" }
 sprite{ id = "enemy/bosses/agahim", description = "Agahim" }
-sprite{ id = "enemy/knight_green1", description = "Green Knight1" }
 sprite{ id = "enemys/agahim", description = "Agahim" }
 sprite{ id = "entities/arrow", description = "Arrow" }
 sprite{ id = "entities/block", description = "Block" }
@@ -79,6 +80,8 @@ sound{ id = "walk_on_water", description = "walk_on_water" }
 sound{ id = "wrong", description = "wrong" }
 
 
+enemy{ id = "agahnim", description = "Agahnim" }
+enemy{ id = "tentacle", description = "Tentacacle" }
 
 
 language{ id = "en", description = "English" }
